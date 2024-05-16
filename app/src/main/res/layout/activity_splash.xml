@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031056"
+    tools:context=".splash">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Welcome to our app"
+        android:textSize="45dp"
+        android:textColor="@color/white"></TextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/lottie"
+        app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_marginLeft="25dp"
+        android:text="Let's chat with AI"
+        android:background="#33D139"
+        android:clickable="true"
+        >
+
+
+    </Button>
+
+
+</RelativeLayout>
